@@ -4,27 +4,9 @@ void setup()
 {
  for (int i = 4; i <= 13; i++) {
     pinMode(i, OUTPUT);
-
- 
-  }
- 
- 
-
-
 }
-
-void loop()
-{
-  
-   
-  
-  
-  
-  
-  
-  
-  
-    
+ }
+void loop() {          //led pattern 
   delay(2000);
   digitalWrite(11, HIGH); 
   delay(1000);
@@ -200,10 +182,7 @@ void loop()
   }
   
   delay(4000);
-  
-  
-  
-  digitalWrite(4, HIGH);//all on
+  digitalWrite(4, HIGH);   //all on
   digitalWrite(5, HIGH);
   digitalWrite(6, HIGH);
   digitalWrite(7, HIGH);
@@ -214,7 +193,7 @@ void loop()
   digitalWrite(12, HIGH);
   digitalWrite(13, HIGH);
   delay(4000);
-  digitalWrite(4, LOW);// all off
+  digitalWrite(4, LOW);    // all off
   digitalWrite(5, LOW);
   digitalWrite(6, LOW);
   digitalWrite(7, LOW);
@@ -282,14 +261,7 @@ void loop()
   digitalWrite(9, LOW);
   digitalWrite(8, LOW);
   delay(50);
- 
-  
-  
-   }
-  
-  
-  
-  
+ }
   digitalWrite(4, HIGH);
   delay(50);
   digitalWrite(6, HIGH);
@@ -330,8 +302,7 @@ void loop()
   delay(50);
   digitalWrite(11, LOW);
   delay(4000);
-  
-   digitalWrite(4, HIGH);
+  digitalWrite(4, HIGH);   //all on
   digitalWrite(5, HIGH);
   digitalWrite(6, HIGH);
   digitalWrite(7, HIGH);
@@ -343,7 +314,7 @@ void loop()
   digitalWrite(13, HIGH);
   delay(10);
   
-  for ( int i = 0; i < 6; i++ ) {
+  for ( int i = 0; i < 6; i++ ) {    //specified pattern
     digitalWrite(4, LOW);
     delay(200);
     digitalWrite(4, HIGH);
@@ -401,11 +372,8 @@ void loop()
     digitalWrite(4, LOW);
     delay(200);
     digitalWrite(4, HIGH);
-    
-  
   }
-  
-  digitalWrite(4, LOW);
+  digitalWrite(4, LOW);    // all off
   delay(50);
   digitalWrite(6, LOW);
   delay(50);
@@ -425,11 +393,5 @@ void loop()
   delay(50);
   digitalWrite(11, LOW);
   delay(4000);
-  
-  
-  
- 
-   
-     
-}
+ }
  
