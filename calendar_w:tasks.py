@@ -368,7 +368,7 @@ class MainWindow(QMainWindow):
 
     #Send automated Email
     def send_daily_email(self):
-        emailUser = "matthew.jurado@cirrus.com"
+        emailUser = "email@gmail.com"  #enter your own email
 
         msg = MIMEMultipart('alternative')
         msg['Subject'] = "Daily Task Reminder"
